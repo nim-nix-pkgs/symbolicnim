@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-symbolicnim-master.flake = false;
+  inputs.src-symbolicnim-master.ref   = "refs/heads/master";
   inputs.src-symbolicnim-master.owner = "HugoGranstrom";
-  inputs.src-symbolicnim-master.ref   = "master";
   inputs.src-symbolicnim-master.repo  = "symbolicnim";
   inputs.src-symbolicnim-master.type  = "github";
   
